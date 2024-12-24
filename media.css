@@ -1,0 +1,98 @@
+@media (max-width:550px){
+    .mid-nav .hide{
+        display: none;
+    }
+
+    .left1{
+        gap: 15px;
+    }
+
+    nav{
+        padding:10px 20px ;
+    }
+
+    .left-nav h1{
+        font-size: 3.5vw;
+    }
+
+    .left1 a{
+        font-size: 2.3vw;
+    }
+
+    main{
+        gap: 30px;
+    }
+
+    .page2 .head h1{
+        font-size: 5vw;
+    }
+
+    .page2 .head h1::after{
+        content: "";
+        position: absolute;
+        background-color: rgb(0, 102, 255);
+        width: 80px;
+        height: 5px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .left1 a:hover::after{
+        content: "";
+        position: absolute;
+        background-color: blue;
+        width: 35px;
+        height: 4px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .top h2{
+        font-size: 7vw;
+    }
+
+    #home::after{
+        content: "";
+        position: absolute;
+        background-color: blue;
+        width: 27px;
+        height: 4px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .page2 .content{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .page2{
+        padding: 30px 0;
+    }
+
+    .right{
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        padding: 5px 15px;
+    }
+
+    .right h1{
+        line-height: 8.5vw;
+    }
+
+    .right h2{
+        font-size: 5vw;
+    }
+
+    .right p{
+        font-size: 17px;
+    }
+
+    .right button{
+        width: 40%;
+        height: 45px;
+        border-radius: 20px;
+    }
+}
