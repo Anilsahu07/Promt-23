@@ -3,6 +3,10 @@
         display: none;
     }
 
+    .page1{
+        /* height: 0%; */
+    }
+
     .left1{
         gap: 15px;
     }
@@ -21,6 +25,7 @@
 
     main{
         gap: 30px;
+        justify-content: center;
     }
 
     .page2 .head h1{
@@ -95,4 +100,5 @@
         height: 45px;
         border-radius: 20px;
     }
+
 }
